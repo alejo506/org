@@ -1,0 +1,47 @@
+
+/* 
+  Estilo general para los campos de entrada de texto.
+  Se aplica márgenes y se define la tipografía para los campos de entrada.
+*/
+.inputfield {
+    margin: 24px 0; /* Establece el margen superior e inferior */
+    font-family: "Montserrat", serif; /* Define la tipografía para los campos */
+}
+
+/* 
+  Estilo para las etiquetas (label) dentro de los campos de entrada.
+  Establece la tipografía, tamaño de fuente, y separación con el campo de entrada.
+*/
+.inputfield label {
+    font-family: "Montserrat", serif; /* Define la tipografía de la etiqueta */
+    font-size: 18px; /* Tamaño de la fuente */
+    font-weight: 600; /* Negrita para el texto */
+    display: block; /* Hace que el label ocupe toda la fila */
+    margin-bottom: 8px; /* Espacio entre la etiqueta y el campo de entrada */
+}
+
+/* 
+  Estilo para los campos de entrada (input).
+  Define el fondo, bordes, el tamaño de fuente, y el comportamiento de enfoque.
+*/
+.inputfield input {
+    background-color: #FFFFFF; /* Fondo blanco para el campo de entrada */
+    box-shadow: 10px 10px 30px 0px #0000000F; /* Sombra sutil alrededor del campo */
+    border: none; /* Sin borde para un estilo limpio */
+    font-size: 16px; /* Tamaño de la fuente dentro del campo */
+    outline-color: #6278F7; /* Color del borde al hacer clic (cuando el input está enfocado) */
+    padding: 30px 20px; /* Espaciado interno para que el texto no esté pegado al borde */
+    width: 100%; /* El campo de entrada ocupa el 100% del ancho disponible */
+}
+
+/* 
+  Estilo específico para los campos de entrada de tipo color.
+  Ajusta el tamaño y el espaciado para que se vea bien cuando se selecciona un color.
+*/
+/*!OJO:  Clase que permite que se visualice el color en el input y esta va a cambiar dinamicamente justamente en la palabra color puede tambien cambiar al valor de los otros inputs, de esta manera poder determinar cual es un input de texto y cual es el de color */
+.inputfield-color input {
+    height: 40px; /* Altura del input de color */
+    padding: 5px 20px; /* Espaciado interno reducido para el input de color */
+}
+
+

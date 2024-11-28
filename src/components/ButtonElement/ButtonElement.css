@@ -1,0 +1,16 @@
+
+.buttonElement{
+    background-color: #6278F7;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: "Montserrat", serif;
+    padding: 24px 32px;
+    border: none;
+    margin: 32px 0;
+    cursor: pointer;
+}
+
+.buttonElement:hover {
+    color: #95FFD4;
+}
